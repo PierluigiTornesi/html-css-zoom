@@ -46,6 +46,7 @@ img {
 /*classe per la colonna  */
 .col-user{
     width: calc(100%/7 - 0.3rem);
+    padding-bottom: 0.5rem;
 }
 /* classe per gli user */
 .user{
@@ -62,4 +63,46 @@ img {
     padding: 0.3rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bar-utils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.list-utils{
+    list-style-type: none;
+    display: flex;
+}
+
+.vertical-utils{
+    text-align: center;
+}
+
+.name-utils{
+    font-size: 1.2rem;
+}
+
+.simbolo-utils{
+    font-size: 1.5rem;
+}
+#green{
+    color: green;
 }
