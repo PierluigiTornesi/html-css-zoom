@@ -64,7 +64,7 @@ img {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
+/* classe per la barra delle utils */
 .bar-utils{
     display: flex;
     flex-direction: row;
@@ -77,32 +77,37 @@ img {
     background-color: gray;
     padding: 1rem;
 }
-
+/* classe per le liste */
 ul{
     list-style-type: none;
 }
-
+/* classe per i li */
 li{
     color: white;
     margin-right: 0.5rem;
 }
-
+/* classe per la lista delle utils */
 .list-utils{
     list-style-type: none;
     display: flex;
 }
-
+/* classe per le liste verticali delle utils */
 .vertical-utils{
     text-align: center;
 }
-
+/* classe per il nome delle utils */
 .name-utils{
     font-size: 1.2rem;
 }
-
+/* classe per il simbolo delle utils */
 .simbolo-utils{
     font-size: 1.5rem;
 }
+/* classe per la freccetta */
+.angle-up{
+    padding-top: 1rem;
+}
+/* classe per colorare di verde una sola util */
 #green{
     color: green;
 }
