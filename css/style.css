@@ -23,10 +23,10 @@ img {
 }
 /* classe per modificare i simboli in alto a destra */
 .view , .simbolo{
-    background-color: gray;
+    background-color: #4a4a4a;
     padding: 0.3rem;
     border-radius: 0.5rem;
-    color: white;
+    color: #e7e7e7;
     font-size: 1rem;
 }
 /* classe del container centrale */
@@ -74,8 +74,7 @@ img {
     left: 0;
     height: 80px;
     width: 100%;
-    background-color: gray;
-    padding: 1rem;
+    background-color: #222222;
 }
 /* classe per le liste */
 ul{
@@ -90,6 +89,7 @@ li{
 .list-utils{
     list-style-type: none;
     display: flex;
+    padding: 0.8rem;
 }
 /* classe per le liste verticali delle utils */
 .vertical-utils{
@@ -109,5 +109,12 @@ li{
 }
 /* classe per colorare di verde una sola util */
 #green{
-    color: green;
+    color: #4bc800;
+}
+/* classe per l'end button */
+.end-button{
+    background-color: #4a4a4a;
+    color: red;
+    font-size: 1rem;
+    padding: 2rem;
 }
